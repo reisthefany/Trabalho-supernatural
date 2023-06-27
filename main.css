@@ -1,0 +1,46 @@
+
+        :root {
+          /* Definindo as variáveis de cor */
+          --cor-primaria: #000000; /* Preto de feijão */
+          --cor-secundaria: #ffffff; /* Borgonha antigo */
+          --cor-terciaria: #ffffff; /* Azul cadete */
+          --cor-quaternaria: #aa0a0a; /* Preto espectral */
+        }
+
+        body {
+          background-image: url(img/fundo\ principal\ \(2\).jpg);
+          background-position: 0px;
+          background-size: 100%;
+          color: #9c1d1d;
+          font-family: "fonte do texto", sans-serif;
+        }
+
+        .conteudo {
+          background-color: #000000;
+          max-width: 50%;
+          margin: 50px auto; /* Centraliza horizontalmente e move mais para cima */
+          font-size: 150%;
+          text-align: center;
+          border-radius: 10px; /* Adiciona bordas arredondadas */
+          padding: 50px; /* Aumenta o espaço interno */
+          display: flex; /* Permite flexibilidade no alinhamento */
+          justify-content: center; /* Alinha o conteúdo ao centro horizontalmente */
+          transition: background-color 0.3s ease; /* Adiciona uma transição suave */
+        }
+
+        .conteudo:hover {
+          background-color: #000000e5; /* Define a cor de fundo mais escura quando o mouse passa por cima */
+        }
+
+        .icone {
+          margin-right: -40px;
+        }
+        @font-face {
+          font-family: fonte texto;
+          src: url(fontes/KGThisIsNotGoodbye.ttf);
+        }
+        .titulo {
+          text-shadow: 0 0 20px rgb(255, 0, 0); /* Define um brilho branco mais denso */
+        }
+        
+      

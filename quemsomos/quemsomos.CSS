@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+:root {
+  --cor-primaria: #0f0101; 
+  --cor-secundaria: #ffffff; 
+  --cor-terciaria: #ac1616; 
+  --cor-quaternaria: #b40e0e; 
+}
+
+body {
+  background-image: url(../img/fundoquemsomos2.jpg);
+  background-position: 0px;
+  background-size: 100%;
+  background-position: 0px;
+  font-family: 'Prompt', sans-serif;
+}
+
+.conteudo {
+  background-color: #000000;
+  color: white;
+  max-width: 90%;
+  margin: 50px auto;
+  font-size: 150%;
+  text-align: center;
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.container {
+  display: flex;
+}
+
+.coluna {
+  flex: 1cm;
+  padding: 20px; 
+  border: 3px solid rgb(139, 16, 16);
+  border-radius: 10px; 
+}
+
+img {
+  max-height: 600px;
+}
+

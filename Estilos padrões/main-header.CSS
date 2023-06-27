@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Título principal";
+  src: url(../fontes/satan_hum_sav.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(to bottom, var(--cor-primaria), rgba(0, 0, 0, 0));
+  display: flex;
+  flex-direction: column; /* Alterado para exibir o título e o menu em coluna */
+  justify-content: flex-start;
+  align-items: center;
+  font-family: Título principal;
+  padding: 0px 5px 3px 5px; /* Alterado para 5px em vez de 5% */
+  backdrop-filter: blur(0.5px);
+  box-shadow: 0 0 10px 10px #100e0dd8;
+}
+
+.titulo {
+  color: var(--cor-secundaria);
+  font-size: 100px; /* Convertido para 100px */
+  text-shadow: 10px 10px 20px var(--cor-quaternaria); /* Convertido para 10px */
+  margin: 20px;
+  font-weight: lighter;
+}
+
+.menu {
+  display: flex;
+  background-color: #100e0d86;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 5px #100e0dd8;
+}
+
+.menu a {
+  display: block;
+  padding: 1px; /* Alterado para 1px em vez de 1% */
+  text-decoration: none;
+  color: var(--cor-secundaria);
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  border-radius: 100px;
+  font-family: "Harry";
+  font-size: 30px; /* Convertido para 30px */
+  text-shadow: 5px 5px 10px var(--cor-quaternaria); /* Convertido para 5px */
+  transition: transform 0.3s ease;
+}
+
+.menu a:hover {
+  background: radial-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
+  transform: scale(1.3);
+}
+
+.icone {
+  padding: 10px; /* Ajuste o valor do padding conforme necessário */
+  margin-right: 2px; /* Alterado para 2px em vez de 2% */
+  margin-left: 1px; /* Alterado para 1px em vez de 1% */
+  max-width: 10%; /* Convertido para 10% */
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
+a.titulo{
+  margin: 0;
+}
+
+#quemsomos {
+  color: #9b0d0d;
+  text-shadow: 5px 5px 10px #7e0a0a; /* Convertido para 5px */
+}
+
+#nossahistoria {
+  color: #b42727;
+  text-shadow: 5px 5px 10px #740b0b; /* Convertido para 5px */
+}
+
+#comoseproteger {
+  color: #b60707;
+  text-shadow: 5px 5px 10px #570707; /* Convertido para 5px */
+}
+
+#tiposdemonios {
+  color: #790c0c;
+  text-shadow: 5px 5px 10px #000000;
+}
+

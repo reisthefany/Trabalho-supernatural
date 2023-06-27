@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socorro</title>
+    <link rel="stylesheet" href="../Estilos padrões/main-header.CSS">
+    <link rel="stylesheet" href="../Estilos padrões/footer.CSS">
+    <link rel="stylesheet" href="formulario.CSS">
+    <link rel="icon" href="../img/socorrosimbolo.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/socorrosimbolo.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="../index.html" class="titulo"><h1 class="titulo">Socorro</h1></a>
+            <nav class="menu">
+                <img src="../img/brasao.png" alt="Ícone" class="icone">
+                <a href="../quemsomos/quemsomos.html" id="Quem somos">Quem somos</a>
+                <a href="../nossahistória/nossahistoria.html" id="Nossa história">Nossa história</a>
+                <a href="../tiposdedemonios/tiposdemonios.html" id="Tipos de demônios">Tipos de demônios</a>
+                <a href="../comoseproteger/comoseproteger.html" id="Como se proteger">Portifólio</a>
+            </nav>
+        </header>
+        <main>
+            <div class="content">
+                <h2>Formulário de Solicitação de Serviços</h2>
+                <form action="#" method="post">
+                    <label for="nome-completo">Nome completo:</label>
+                    <input type="text" id="nome-completo" name="nome-completo" required><br>
+                    
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required><br>
+                    
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" required><br>
+                    
+                    <label for="endereco">Endereço:</label>
+                    <input type="text" id="endereco" name="endereco" required><br>
+                    
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" id="cidade" name="cidade" required><br>
+                    
+                    <label for="estado">Estado:</label>
+                    <input type="text" id="estado" name="estado" required><br>
+                    
+                    <label for="cep">CEP:</label>
+                    <input type="text" id="cep" name="cep" required><br>
+                    
+                    <fieldset>
+                        <legend>Tipo de serviço desejado:</legend>
+                        <input type="checkbox" id="servico1" name="servico1" value="Investigação Paranormal">
+                        <label for="servico1">Investigação Paranormal</label><br>
+                        
+                        <input type="checkbox" id="servico2" name="servico2" value="Exorcismo e Banimento">
+                        <label for="servico2">Exorcismo e Banimento</label><br>
+                        
+                        <input type="checkbox" id="servico3" name="servico3" value="Combate a Criaturas Sobrenaturais">
+                        <label for="servico3">Combate a Criaturas Sobrenaturais</label><br>
+                        
+                        <input type="checkbox" id="servico4" name="servico4" value="Proteção contra Forças Sobrenaturais">
+                        <label for="servico4">Proteção contra Forças Sobrenaturais</label><br>
+                        
+                        <input type="checkbox" id="servico5" name="servico5" value="Resolução de Casos Misteriosos">
+                        <label for="servico5">Resolução de Casos Misteriosos</label><br>
+                    </fieldset>
+                    
+                    <label for="descricao-problema">Descrição detalhada do problema ou serviço solicitado:</label><br>
+                    <textarea id="descricao-problema" name="descricao-problema" rows="4" required></textarea><br>
+                    
+                    <label for="localizacao-problema">Localização do problema (se aplicável):</label><br>
+                    <input type="text" id="localizacao-problema" name="localizacao-problema"><br>
+                    
+                    <label for="data-horario">Data e horário preferenciais para os serviços:</label><br>
+                    <input type="text" id="data-horario" name="data-horario"><br>
+                    
+                    <label for="outras-informacoes">Outras informações relevantes:</label><br>
+                    <textarea id="outras-informacoes" name="outras-informacoes" rows="4"></textarea><br>
+                    
+                    <label for="termos-condicoes">Termos e Condições:</label><br>
+                    <input type="checkbox" id="termos-condicoes" name="termos-condicoes" required>
+                    <label for="termos-condicoes">Ao preencher e enviar este formulário, você concorda com os seguintes termos e condições:</label><br>
+                    
+                    <p>
+                        - Os serviços de Sam e Dean Winchester estão sujeitos à disponibilidade.<br>
+                        - Os valores e formas de pagamento serão discutidos posteriormente, de acordo com o tipo e a complexidade do serviço.<br>
+                        - Sam e Dean Winchester não se responsabilizam por danos pessoais ou materiais causados por fenômenos sobrenaturais durante a prestação dos serviços.<br>
+                        - Todas as informações fornecidas serão tratadas de forma confidencial e utilizadas exclusivamente para fins de contato e prestação dos serviços solicitados.
+                    </p>
+                    
+                    <label for="assinatura">Assinatura:</label>
+                    <input type="text" id="assinatura" name="assinatura" required><br>
+                    
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-text">
+                Entre em Contato<br>
+                Para qualquer pergunta, demônio não identificado ou pedido de ajuda extremo, não hesite em nos contatar:
+                contato@irmaoswinchesters.com<br>
+                &copy; 2023 Irmãos Winchester. Todos os direitos conjurados.
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

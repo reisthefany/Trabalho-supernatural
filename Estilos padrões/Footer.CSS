@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    flex: 1;
+  }
+  
+  footer {
+    background: linear-gradient(to top, var(--cor-primaria), rgba(0, 0, 0, 0));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: Satan_hum_sav;
+    color: var(--cor-secundaria);
+    text-align: center;
+    backdrop-filter: blur(10px); /* Adicione o efeito de desfoque se desejar */
+    box-shadow: 0 0 10px 10px #100e0dd8;
+  }
+  

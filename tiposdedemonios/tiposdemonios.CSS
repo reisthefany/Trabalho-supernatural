@@ -1,0 +1,36 @@
+:root {
+  /* Definindo as variáveis de cor */
+  --cor-primaria: #120a02; /* Mogno */
+  --cor-secundaria: #ffffff; /* Cáqui */
+  --cor-terciaria: #c91111; /* Amarelo esverdeado */
+  --cor-quaternaria: #9c0e0e; /* Café */
+  --cor-quintenaria: #fbf8eb; /* Branco floral */
+}
+
+body {
+  background-image: url(../img/tiposdedemoniosfundo.jpg);
+  background-position: 0px;
+  background-size: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  margin: 20px;
+}
+
+.grid-item img {
+  width: 300px; 
+  height: auto;
+  max-width: 100%;
+}
+.grid-item {
+ border: 2px solid var(--cor-primaria);
+ padding: 10px;
+ text-align: center;
+ background-color: black;
+ border: 2px solid rgb(160, 20, 20);
+ color: white;
+}
+
